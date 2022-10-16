@@ -15,7 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@poc/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@poc/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@poc/one": ["libs/one/src/index.ts"],
+      "@poc/third": ["libs/third/src/index.ts"],
+      "@poc/one-api": ["libs/one-api/src/index.ts"],
+      "@poc/two-api": ["libs/two-api/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
